@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the Spotify Track</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Guess the Spotify Track</h1>
+        <button id="login-button">Log in with Spotify</button>
+        <div id="game" style="display:none;">
+            <audio id="audio" controls></audio>
+            <input type="text" id="guess" placeholder="Guess the track">
+            <button id="submit-guess">Submit Guess</button>
+            <div id="result"></div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

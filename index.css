@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #1db954;
+    color: white;
+}
+
+.container {
+    text-align: center;
+}
+
+button, input {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 25px;
+    border: none;
+}
+
+button {
+    background-color: #fff;
+    color: #1db954;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1aa34a;
+}
+
+input {
+    border: 2px solid #fff;
+    background: transparent;
+    color: #fff;
+    outline: none;
+    text-align: center;
+}
+
+audio {
+    margin-top: 20px;
+}
