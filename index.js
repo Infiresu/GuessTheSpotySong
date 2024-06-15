@@ -1,5 +1,5 @@
 const clientId = "bcbf752d3a9244f19ed768e3adeebb43"; // Вставьте сюда ваш Client ID
-const redirectUri = "http://localhost:8000"; // Вставьте сюда ваш Redirect URI
+const redirectUri = "https://infiresu.github.io/GuessTheSpotySong/"; // Вставьте сюда ваш Redirect URI
 const scopes = "user-read-private user-read-email user-library-read";
 
 document.getElementById("login-button").addEventListener("click", () => {
